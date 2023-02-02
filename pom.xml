@@ -13,8 +13,8 @@
         <junit-platform.version>1.6.0</junit-platform.version>
         <slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
         <rest-assured.version>4.2.0</rest-assured.version>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -70,11 +70,6 @@
             <version>${rest-assured.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>3.12.11</version>
-        </dependency>
 
     </dependencies>
 
