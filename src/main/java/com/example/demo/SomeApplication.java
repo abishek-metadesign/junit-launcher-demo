@@ -29,6 +29,7 @@ public class SomeApplication {
             return testRunner.runTests(classRootPaths, "1234");
         });
         String data = new ObjectMapper().writeValueAsString(userTestResult);
+        System.out.println(data);
         saveToDataBase(data,url);
     }
 
